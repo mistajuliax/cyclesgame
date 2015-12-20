@@ -154,6 +154,7 @@ i.callout-icon:hover {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.19);
     padding: 50px 0;
+    font-size: 13pt
 
 }
 
@@ -175,7 +176,7 @@ i.callout-icon:hover {
 
 #action4 {
     background: url(../img/render2.jpg) no-repeat top right;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px #dddddd;
     background-size: cover;
     padding: 30px 0px 200px;
     width: 100%;
@@ -198,9 +199,9 @@ i.callout-icon:hover {
 }
 
 #action {
-    background: url(../img/gray.png);
-    background-position: center;
+    background: url(../img/start.jpg) no-repeat top right;
     text-shadow: 1px 1px #000000;
+    background-size: cover;
     padding: 30px 0px 200px;
     width: 100%;
 }

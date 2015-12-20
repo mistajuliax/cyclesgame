@@ -34,7 +34,7 @@
        
             <a href="https://twitter.com/luboslenco" class="btn btn-default btn-lg"><i class="icon-twitter"></i> <span class="network-name">twitter</span></a>
         
-            <a href="https://github.com/luboslenco/cyclesgame" class="btn btn-default btn-lg"><i class="icon-github"></i> <span class="network-name">github</span></a>
+            <a href="https://github.com/" class="btn btn-default btn-lg"><i class="icon-github"></i> <span class="network-name">github</span></a>
         
         </div>
       </div>
@@ -51,12 +51,7 @@
             <div class="row"  style="max-width:500px;">
               <div class="col-md-10 col-md-offset-1">
                 <h1 style="padding-bottom:1.5em;">Blender Integration</h1>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Cycles Game Engine is built directly into Blender in a form of standard add-on that can be applied to any Blender scene. Features like skinning, particle systems and physics are supported. This allows to author complete 3D content and see the changes immediatelly in the game from one place. A huge Blender ecosystem can be accessed seamlessly.
               </div>
             </div>
           </div>
@@ -66,15 +61,11 @@
         
         <div id="action4" class="call-to-action">
           <div class="container">
-            <div class="row"  style="max-width:500px; ">
-              <div class="col-md-10 col-md-offset-1">
+            <div class="row"  style="max-width:500px;">
+              <div class="col-md-10 col-md-offset-1" style="color:#000000">
                 <h1 style="padding-bottom:1.5em;">Material System</h1>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A subset of regular node-based cycles materials is used. Internally, shader variants are pregenerated and based on material nodes and model data a suitable render path is selected. For performance reasons, not all material nodes are supported currently.<br/><br/>
+                The render pipeline is completely customizable, allowing use of custom shaders. Forward and deferred pipelines come as defaults.
               </div>
             </div>
           </div>
@@ -87,12 +78,8 @@
             <div class="row"  style="max-width:500px;">
               <div class="col-md-10 col-md-offset-1">
                 <h1 style="padding-bottom:1.5em;">Node Logic</h1>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Blender nodes can be used to create game logic visually, making it possible to prototype quickly. Nodes are then compiled to native code at compile time, ensuring small performance hit.<br/><br/>
+                For more complex tasks, a native code can be written in Haxe language. Based on desired target platforms, C++ or JavaScript code can be used.
               </div>
             </div>
           </div>
@@ -105,12 +92,8 @@
             <div class="row"  style="max-width:500px;">
               <div class="col-md-10 col-md-offset-1">
                 <h1 style="padding-bottom:1.5em;">Ready for the Future</h1>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The foundation of engine is built on open source technologies. At core is Haxe programming language and Kha, which allows to render graphics on multiple platforms(HTML5, iOS, Android, Windows, OSX, Linux,...) supporting multiple graphics APIs(D3D9/11/12, OpenGL, WebGL, Metal, soon Vulkan). Kha does even more - it provides all the low level functionality and cross-compiles GLSL shaders.<br/><br/>
+                Finally, Cycles Game(also open-source!) connects all parts together and integrates into Blender.
               </div>
             </div>
           </div>
@@ -123,10 +106,10 @@
             <div class="row"  style="max-width:500px;">
               <div class="col-md-10 col-md-offset-1">
                 <h1 style="padding-bottom:1.5em;">Getting Started</h1>
-                <a href="https://github.com/spf13/hugo/releases" class="btn btn-lg btn-primary">Download <i class="icon-arrow-down"></i></a>
-                <a href="/overview/quickstart" style="color:white;font-weight:300;">Quickstart Guide</a>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
+                
+                Coming Early 2016!<br/>
+                Say <a href="mailto:hello@cyclesgame.org" style="color:white;font-weight:300;">Hello</a>.<br/><br/>
+                Check out <a href="http://luboslenco.com/demo/archery" style="color:white;font-weight:300;">Archery Demo</a>.
               </div>
             </div>
           </div>
@@ -139,8 +122,8 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center">
         <ul class="list-inline">
-            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
-            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+            <li><a href="http://twitter.com/luboslenco" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/" class="icon-octocat icon-2x"></a></li>
         </ul>
         <hr>
         <p>Cycles 3D Game Engine</p>
