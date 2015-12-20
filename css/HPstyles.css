@@ -51,39 +51,6 @@ body {
     margin: 2em 0 4em;
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px)
-and (orientation : portrait)
-{
-    .header {
-        display: table;
-        height: 70%;
-        width: 100%;
-        position: relative;
-        background: url(../img/desk.jpg) no-repeat;
-        background-size: 100% 100%;
-        z-index: 99999;
-        background-color: black;
-    }
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-    .header {
-        display: table;
-        height: 70%;
-        width: 100%;
-        position: relative;
-        background: url(../img/desk.jpg) no-repeat;
-        background-size: 100% 100%;
-        z-index: 99999;
-        background-color: black;
-    }
-}
-
 .header .btn {
     margin: 10px;
 }
